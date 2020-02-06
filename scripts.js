@@ -1,17 +1,27 @@
-// "Ankur",
-//   "Clinton",
-//   "Jessica",
-//   "Mike",
-//   "Ed",
-//   "Chelsea",
-//   "Tom",
-//   "Cassly",
-//   "Laquita";
+"Ankur",
+  "Clinton",
+  "Jessica",
+  "Mike",
+  "Ed",
+  "Chelsea",
+  "Tom",
+  "Cassly",
+  "Laquita";
 
-const name = ["Ankur", "Mike", "Ed"];
+const name = [
+  "Ankur",
+  "Clinton",
+  "Jessica",
+  "Mike",
+  "Ed",
+  "Chelsea",
+  "Tom",
+  "Cassly",
+  "Laquita"
+];
 const wholeArr = [];
 
-function longestName(arr) {
+function longestName(name) {
   let nameLength = 0;
   for (let i = 0; i < name.length; i++) {
     if (nameLength < name[i].length) {
