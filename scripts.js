@@ -1,17 +1,9 @@
-names;
-"Ankur",
-  "Clinton",
-  "Jessica",
-  "Mike",
-  "Ed",
-  "Chelsea",
-  "Tom",
-  "Cassly",
-  "Laquita";
-
-// array of names
-const name = ['Ankur', 'Clinton', 'Jessica'];
 // empty array for longest names
+let name = [];
+for (let i = 0; i < 3; i++) {
+	name.push(prompt('Enter a name'));
+}
+
 const longNames = [];
 
 // create function
