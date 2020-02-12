@@ -30,7 +30,11 @@ function longestName(name) {
 		return longNames[0];
 		// If there is more than one item in the array, return the whole array
 	} else {
-		return longNames;
+		const listNames = longNames.values();
+		for (list of listNames) {
+			console.log(list);
+		}
+		return longNames();
 	}
 }
 
