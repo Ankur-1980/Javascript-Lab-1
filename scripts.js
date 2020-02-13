@@ -39,3 +39,15 @@ function longestName(name) {
 }
 
 console.log(longestName(name));
+
+// let name1 = prompt('Enter a name');
+// let name2 = prompt('Enter a name');
+// let name3 = prompt('Enter a name');
+
+// function longestName(name) {
+// 	let max = name[0].length;
+// 	name.map(v => (max = Math.max(max, v.length)));
+// 	result = name.filter(v => v.length == max);
+// 	return result;
+// }
+// console.log(longestName([name1, name2, name3]) + ' has the longest name.');
